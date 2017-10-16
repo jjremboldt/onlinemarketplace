@@ -9,8 +9,8 @@
       <link href="css/styles.css" rel="stylesheet" type="text/css">
       <link rel="icon" type="image/jpg" href="img/marketplace.jpg">
       <title>Online Marketplace</title>
-  <title></title>
   </head>
+
   <body>
     <div class="row-page-title">
       <div class="column-md-12">
@@ -23,13 +23,13 @@
     <form class="form-horizontal">
       <div class="form-group">  <!-- enter f name -->
         <div class="row">
-        <div class="col-md-4">
-        <label for="inputFname" class="control-label">First Name</label>
-      </div>
-        <div class="col-md-5">
-          <input type="Fname" class="form-control" id="inputFname" placeholder="First Name">
+          <div class="col-md-4">
+            <label for="inputFname" class="control-label">First Name</label>
+          </div>
+          <div class="col-md-5">
+            <input type="Fname" class="form-control" id="inputFname" placeholder="First Name">
+          </div>
         </div>
-      </div>
       </div>
 
 
@@ -70,20 +70,37 @@
         </div>
       </div> <!-- enter city, state, and zip name -->
 
-
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <div class="checkbox">
-            <label>
-              <input type="checkbox"> Remember me
-            </label>
+      <div class="checkbox">
+        <div class="row-interested">
+          <div class="col-md-12">
+            <p><center><strong>Check the box if you are interested in these other products.</strong></p>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <label><input type="checkbox" value="">  Braceletts</label>
+            <label><input type="checkbox" value="">  Necklaces</label>
+            <label><input type="checkbox" value="">  Earrings</label>
+          </div>
+          <div class="col-md-3"></div>
         </div>
       </div>
 
+      <div class="row">
+        <div class="row-help">
+        <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <label class="sr-only" for="inputHelpBlock"></label>
+            <input type="text" id="inputHelpBlock" class="form-control" aria-describedby="helpBlock" placeholder="Can we help you find something? Enter it here!">
+          </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Sign in</button>
+          <button type="submit" class="btn btn-default">Submit</button>
         </div>
       </div>
     </form>
@@ -105,7 +122,7 @@
 
 A.  Create a website with a form on it to take
   Completed 1. the user's full name,
-  2.  and address as if they were ordering a product from you.
+  Completed 2.  and address as if they were ordering a product from you.
 
 B.  After they submit the form:
   1.  show them a receipt.
