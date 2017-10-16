@@ -14,6 +14,10 @@
   margin-right: 25px;
 }
 
+.producttitle .productprice .pricetext {
+  align-content: center;
+}
+
 .row-help {
   padding: 10px 10px 10px 10px;
   margin: 25px 25px 25px 25px;
@@ -26,6 +30,21 @@
   margin-right: auto;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 70%;
+  width: 50%;
+}
 
+.form-group {
+  margin: auto;
+}
+
+.checkbox {
+  margin: auto;
+}
+
+.otheritems {
+  margin: auto;
+}
+
+.col-formlabels {
+  width: max;
 }
