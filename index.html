@@ -19,66 +19,61 @@
         </div>
       </div>
     </div>
-  <div class="container">
-    <div class="row">
-    <div class="col-md-4">
-        <img src="img/bracelet.jpg" class="img-responsive" height="150px" width="150px">
-        <div class="producttitle">Bracelet</div>
-        <div class="productprice"><div class="pricetext">$99.95</div></div>
-        <label><input type="checkbox" value="">  Chose</label>
+    <div class="container">  <!-- products containers -->
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/bracelet.jpg" class="img-responsive" height="150px" width="150px">
+          <div class="producttitle">Bracelet</div>
+          <div class="productprice"><div class="pricetext">$99.95</div></div>
+          <label><input type="checkbox" value="">  Chose</label>
+        </div>
+        <div class="col-md-4">
+          <img src="img/necklace.jpg" class="img-responsive" height="150px" width="150px">
+          <div class="producttitle">Necklace</div>
+          <div class="productprice"><div class="pricetext">$89.95</div></div>
+          <label><input type="checkbox" value="">  Chose</label>
+        </div>
+        <div class="col-md-4">
+          <img src="img/earrings.jpg" class="img-responsive" height="150px" width="150px">
+          <div class="producttitle">Earrings</div>
+          <div class="productprice"><div class="pricetext">$98.95</div></div>
+          <label><input type="checkbox" value="">  Chose</label>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-        <img src="img/necklace.jpg" class="img-responsive" height="150px" width="150px">
-        <div class="producttitle">Necklace</div>
-        <div class="productprice"><div class="pricetext">$89.95</div></div>
-        <label><input type="checkbox" value="">  Chose</label>
-    </div>
-    <div class="col-md-4">
-        <img src="img/earrings.jpg" class="img-responsive" height="150px" width="150px">
-        <div class="producttitle">Earrings</div>
-        <div class="productprice"><div class="pricetext">$98.95</div></div>
-        <label><input type="checkbox" value="">  Chose</label>
-    </div>
-  </div>
-  </div>
+
     <form class="form-horizontal">
       <div class="form-group">  <!-- enter f name -->
         <div class="row-form">
-            <input type="Fname" class="form-control" id="inputFname" placeholder="Enter: your First Name">
+          <input type="Fname" class="form-control" id="inputFname" placeholder="Enter: your First Name">
         </div>
       </div>
-
-
     <div class="form-group"> <!-- enter l name -->
       <div class="row-form">
         <input type="text" class="form-control" id="inputLname" placeholder="Enter: your Last Name">
       </div>
     </div>
-
-      <div class="form-group"> <!-- enter street address name -->
-        <div class="row-form">
-          <input type="text" class="form-control" id="Street" placeholder="Enter: your full street address">
-          </div>
+    <div class="form-group"> <!-- enter street address name -->
+      <div class="row-form">
+        <input type="text" class="form-control" id="Street" placeholder="Enter: your full street address">
       </div>
     </div>
+    <div class="form-group"> <!-- enter city, state, and zip name -->
+      <div class="row-form">
+        <input type="text" class="col-formlabels" id="City" placeholder="Enter your city">
+        <input type="text" class="col-formlabels" id="inputState" placeholder="State">
+        <input type="text" class="col-formlabels" id="inputzip" placeholder="Zip">
+      </div>
+    </div> <!-- enter city, state, and zip name -->
 
-
-      <div class="form-group"> <!-- enter city, state, and zip name -->
-        <div class="row-form">
-          <input type="text" class="col-formlabels" id="City" placeholder="Enter your city">
-          <input type="text" class="col-formlabels" id="inputState" placeholder="State">
-          <input type="text" class="col-formlabels" id="inputzip" placeholder="Zip">
-        </div>
-      </div> <!-- enter city, state, and zip name -->
-
-      <div class="checkbox">
-        <div class="row-interested">
-          <p><center><strong>Check the box if you are interested in these other products.</strong></p>
-            <label><input type="checkbox" value="">  Braceletts</label>
-            <label><input type="checkbox" value="">  Necklaces</label>
-            <label><input type="checkbox" value="">  Earrings</label>
-        </div>
-        <div class="row-help">
+    <div class="checkbox">
+      <div class="row-interested">
+        <p><center><strong>Check the box if you are interested in these other products.</strong></p>
+          <label><input type="checkbox" value="">  Braceletts</label>
+          <label><input type="checkbox" value="">  Necklaces</label>
+          <label><input type="checkbox" value="">  Earrings</label>
+      </div>
+      <div class="row-help">
         <div class="col-md-1"></div>
           <div class="col-md-10">
             <label class="sr-only" for="inputHelpBlock"></label>
@@ -86,14 +81,14 @@
           </div>
         <div class="col-md-1"></div>
       </div>
-      </div>
+    </div>
 
-      <div class="form-group">
-        <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-default">Submit</button>
-        </div>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
       </div>
-    </form>
+    </div>
+  </form>
 
 
 
@@ -121,10 +116,10 @@ B.  After they submit the form:
     b. reprint their address as a confirmation of shipping details.
 
 C.  Collect additional information from the user in your form.
-  1.  For instance, if your online marketplace sells jewelry, include form fields denoting whether they're ordering:
-    a. a bracelet,
-    b. necklace,
-    c.  or earrings.
+  Completed 1.  For instance, if your online marketplace sells jewelry, include form fields denoting whether they're ordering:
+  Completed  a. a bracelet,
+  Completed  b. necklace,
+  Completed  c.  or earrings.
   2.  Then, make sure to include this extra information in the receipt you display back to the user.
 
 D.  Add CSS to your online store to make it look more professional, or inviting. Or add a stylistic theme that matches whatever your store is selling.
