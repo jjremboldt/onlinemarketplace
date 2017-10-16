@@ -11,10 +11,21 @@
 
 .row {
   margin-left: 25px;
+  margin-right: 25px;
 }
 
 .row-help {
   padding: 10px 10px 10px 10px;
   margin: 25px 25px 25px 25px;
   width: 100%;
+}
+
+.row-form {
+  padding: 5px 10px 5px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 70%;
+
 }
